@@ -48,8 +48,6 @@ public class RetrofitClient {
                 if (response.isSuccessful())
                 {
                     Log.e(TAG, "onResponse: "+response.body().size() );
-//                    mainView.onSuccess(response.body());
-//                    mainView.hideProgressBar();
                     List<FundsModel> items=response.body();
                     list.setValue(items);
                 }
@@ -58,8 +56,7 @@ public class RetrofitClient {
             @Override
             public void onFailure(Call<List<FundsModel>> call, Throwable t) {
                 Log.e(TAG, "onFailure: "+t.getMessage() );
-//                mainView.hideProgressBar();
-//                mainView.onFail("Something is wrong");
+
             }
         });
         return list;
