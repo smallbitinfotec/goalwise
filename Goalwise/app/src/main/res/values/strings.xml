@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Goalwise</string>
+    <string name="search">Search</string>
+    <string name="funds">Funds</string>
+    <string name="min_sip_amount">Min SIP Amount:</string>
+    <string name="min_sip_multiple">Min SIP Multiple:</string>
+    <string name="sip_dates">SIP Dates:</string>
+    <string name="of_every_month">of every month</string>
+    <string name="add">+Add</string>
+    <string name="enter_sip_amount">Enter SIP Amount</string>
+    <string name="add_fund">Add Fund</string>
+    <string name="dialog_desc">ICIC Prodential Value Discovery Fund - Growth has been sucessfully added.</string>
+    <string name="success_message">Fund has been added to your dashboard</string>
+</resources>
